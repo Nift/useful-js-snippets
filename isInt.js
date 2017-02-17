@@ -1,6 +1,6 @@
 //from:
 //http://stackoverflow.com/questions/14636536/how-to-check-if-a-variable-is-an-integer-in-javascript
-function isInt(value) {
+export default function isInt(value) {
   if (isNaN(value)) {
     return false;
   }
